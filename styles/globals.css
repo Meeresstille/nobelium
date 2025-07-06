@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
+  font-family: 'LXGWWenKai';
+  src: url('/fonts/LXGWWenKai-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'LXGWWenKai';
+  src: url('/fonts/LXGWWenKai-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'LXGWWenKai';
+  src: url('/fonts/LXGWWenKai-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'IBM Plex Sans';
   font-weight: 100 900;
   font-display: swap;
@@ -47,6 +69,7 @@ body::-webkit-scrollbar {
 body {
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  font-family: 'LXGWWenKai', 'Helvetica Neue', Arial, sans-serif;
 }
 body::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
