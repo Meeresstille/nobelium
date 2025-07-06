@@ -75,10 +75,8 @@ const components = {
   Equation: dynamic(() => {
     return import('react-notion-x/build/third-party/equation').then(module => module.Equation)
   }),
-  // PDF (Embed block)
-  Pdf: dynamic(() => {
-    return import('react-notion-x/build/third-party/pdf').then(module => module.Pdf)
-  }, { ssr: false }),
+  // PDF disabled to avoid build error on Vercel
+  Pdf: () => null,
   // Tweet block
   Tweet: dynamic(() => {
     return import('react-tweet-embed').then(module => {
