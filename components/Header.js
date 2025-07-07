@@ -10,7 +10,7 @@ const NavBar = () => {
   const locale = useLocale()
   const links = [
     { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
-    { id: 1, name: '观鸟', to: '/birding', show: true },
+    { id: 1, name: '观鸟', to: '/birder', show: true },
     { id: 2, name: '读书', to: '/books', show: true },
     { id: 3, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
     { id: 4, name: locale.NAV.RSS, to: '/feed', show: true, external: true },
