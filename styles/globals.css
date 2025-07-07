@@ -191,3 +191,11 @@ html, body, *  {
   font-family: 'LXGWWenKai', sans-serif !important;
 }
 
+html, body, *  {
+  font-family: 'LXGWWenKai', sans-serif !important;
+}
+
+/* 隐藏右下角的 Powered by Vercel */
+a[href*="vercel.com"], iframe[src*="vercel.com"], .vercel-badge {
+  display: none !important;
+}
